@@ -13,6 +13,7 @@
 		F0334D691987729800E0556E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0334D671987729800E0556E /* Main.storyboard */; };
 		F0334D6B1987729800E0556E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0334D6A1987729800E0556E /* Images.xcassets */; };
 		F0334D771987729800E0556E /* BlockAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0334D761987729800E0556E /* BlockAlertViewTests.m */; };
+		F0334D86198776A800E0556E /* NeBlockAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0334D85198776A800E0556E /* NeBlockAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		F0334D701987729800E0556E /* BlockAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0334D751987729800E0556E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0334D761987729800E0556E /* BlockAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockAlertViewTests.m; sourceTree = "<group>"; };
+		F0334D84198776A800E0556E /* NeBlockAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeBlockAlertView.h; sourceTree = "<group>"; };
+		F0334D85198776A800E0556E /* NeBlockAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeBlockAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				F0334D641987729800E0556E /* ViewController.h */,
 				F0334D651987729800E0556E /* ViewController.m */,
 				F0334D671987729800E0556E /* Main.storyboard */,
+				F0334D84198776A800E0556E /* NeBlockAlertView.h */,
+				F0334D85198776A800E0556E /* NeBlockAlertView.m */,
 				F0334D6A1987729800E0556E /* Images.xcassets */,
 				F0334D5D1987729800E0556E /* Supporting Files */,
 			);
@@ -217,6 +222,7 @@
 			files = (
 				F0334D661987729800E0556E /* ViewController.m in Sources */,
 				F0334D631987729800E0556E /* AppDelegate.m in Sources */,
+				F0334D86198776A800E0556E /* NeBlockAlertView.m in Sources */,
 				F0334D601987729800E0556E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
