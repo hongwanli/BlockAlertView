@@ -1,0 +1,2 @@
+# BlockAlertView
+用block实现AlertView的按钮代理方法，使用起来比较方便
